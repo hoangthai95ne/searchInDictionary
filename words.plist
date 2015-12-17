@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>a</key>
+	<array>
+		<string>active</string>
+		<string>alien</string>
+		<string>allies</string>
+	</array>
+	<key>b</key>
+	<array>
+		<string>beach</string>
+		<string>base</string>
+		<string>block</string>
+	</array>
+	<key>c</key>
+	<array>
+		<string>clock</string>
+		<string>coat</string>
+		<string>center</string>
+	</array>
+	<key>d</key>
+	<array>
+		<string>dream</string>
+		<string>disable</string>
+		<string>debug</string>
+	</array>
+</dict>
+</plist>

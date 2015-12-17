@@ -8,23 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		AB43F6941C22673C00440223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43F6931C22673C00440223 /* main.m */; };
-		AB43F6971C22673C00440223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43F6961C22673C00440223 /* AppDelegate.m */; };
-		AB43F69A1C22673C00440223 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43F6991C22673C00440223 /* ViewController.m */; };
-		AB43F69D1C22673C00440223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB43F69B1C22673C00440223 /* Main.storyboard */; };
 		AB43F69F1C22673C00440223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB43F69E1C22673C00440223 /* Assets.xcassets */; };
 		AB43F6A21C22673C00440223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB43F6A01C22673C00440223 /* LaunchScreen.storyboard */; };
-		AB43F6AD1C22673C00440223 /* DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43F6AC1C22673C00440223 /* DictionaryTests.m */; };
 		AB43F6B81C22673C00440223 /* DictionaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43F6B71C22673C00440223 /* DictionaryUITests.m */; };
+		AB43F6D11C22679600440223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43F6C71C22679600440223 /* AppDelegate.m */; };
+		AB43F6D21C22679600440223 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43F6C91C22679600440223 /* BootLogic.m */; };
+		AB43F6D31C22679600440223 /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43F6CB1C22679600440223 /* ConsoleScreen.m */; };
+		AB43F6D41C22679600440223 /* dictionaryHW.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43F6CD1C22679600440223 /* dictionaryHW.m */; };
+		AB43F6D51C22679600440223 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43F6CF1C22679600440223 /* MainScreen.m */; };
+		AB43F6D61C22679600440223 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB43F6D01C22679600440223 /* words.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AB43F6A91C22673C00440223 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB43F6871C22673C00440223 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB43F68E1C22673C00440223;
-			remoteInfo = Dictionary;
-		};
 		AB43F6B41C22673C00440223 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB43F6871C22673C00440223 /* Project object */;
@@ -37,31 +32,27 @@
 /* Begin PBXFileReference section */
 		AB43F68F1C22673C00440223 /* Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB43F6931C22673C00440223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB43F6951C22673C00440223 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AB43F6961C22673C00440223 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB43F6981C22673C00440223 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB43F6991C22673C00440223 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AB43F69C1C22673C00440223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB43F69E1C22673C00440223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB43F6A11C22673C00440223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB43F6A31C22673C00440223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB43F6A81C22673C00440223 /* DictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB43F6AC1C22673C00440223 /* DictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictionaryTests.m; sourceTree = "<group>"; };
-		AB43F6AE1C22673C00440223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB43F6B31C22673C00440223 /* DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB43F6B71C22673C00440223 /* DictionaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictionaryUITests.m; sourceTree = "<group>"; };
 		AB43F6B91C22673C00440223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB43F6C61C22679600440223 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB43F6C71C22679600440223 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB43F6C81C22679600440223 /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootLogic.h; sourceTree = "<group>"; };
+		AB43F6C91C22679600440223 /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootLogic.m; sourceTree = "<group>"; };
+		AB43F6CA1C22679600440223 /* ConsoleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleScreen.h; sourceTree = "<group>"; };
+		AB43F6CB1C22679600440223 /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleScreen.m; sourceTree = "<group>"; };
+		AB43F6CC1C22679600440223 /* dictionaryHW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dictionaryHW.h; path = ../dictionaryHW.h; sourceTree = "<group>"; };
+		AB43F6CD1C22679600440223 /* dictionaryHW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = dictionaryHW.m; path = ../dictionaryHW.m; sourceTree = "<group>"; };
+		AB43F6CE1C22679600440223 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		AB43F6CF1C22679600440223 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		AB43F6D01C22679600440223 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = words.plist; path = ../words.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AB43F68C1C22673C00440223 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB43F6A51C22673C00440223 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,8 +72,8 @@
 		AB43F6861C22673C00440223 = {
 			isa = PBXGroup;
 			children = (
+				AB43F6C51C22677100440223 /* Core */,
 				AB43F6911C22673C00440223 /* Dictionary */,
-				AB43F6AB1C22673C00440223 /* DictionaryTests */,
 				AB43F6B61C22673C00440223 /* DictionaryUITests */,
 				AB43F6901C22673C00440223 /* Products */,
 			);
@@ -92,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				AB43F68F1C22673C00440223 /* Dictionary.app */,
-				AB43F6A81C22673C00440223 /* DictionaryTests.xctest */,
 				AB43F6B31C22673C00440223 /* DictionaryUITests.xctest */,
 			);
 			name = Products;
@@ -101,11 +91,9 @@
 		AB43F6911C22673C00440223 /* Dictionary */ = {
 			isa = PBXGroup;
 			children = (
-				AB43F6951C22673C00440223 /* AppDelegate.h */,
-				AB43F6961C22673C00440223 /* AppDelegate.m */,
-				AB43F6981C22673C00440223 /* ViewController.h */,
-				AB43F6991C22673C00440223 /* ViewController.m */,
-				AB43F69B1C22673C00440223 /* Main.storyboard */,
+				AB43F6D01C22679600440223 /* words.plist */,
+				AB43F6CC1C22679600440223 /* dictionaryHW.h */,
+				AB43F6CD1C22679600440223 /* dictionaryHW.m */,
 				AB43F69E1C22673C00440223 /* Assets.xcassets */,
 				AB43F6A01C22673C00440223 /* LaunchScreen.storyboard */,
 				AB43F6A31C22673C00440223 /* Info.plist */,
@@ -122,15 +110,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AB43F6AB1C22673C00440223 /* DictionaryTests */ = {
-			isa = PBXGroup;
-			children = (
-				AB43F6AC1C22673C00440223 /* DictionaryTests.m */,
-				AB43F6AE1C22673C00440223 /* Info.plist */,
-			);
-			path = DictionaryTests;
-			sourceTree = "<group>";
-		};
 		AB43F6B61C22673C00440223 /* DictionaryUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +117,21 @@
 				AB43F6B91C22673C00440223 /* Info.plist */,
 			);
 			path = DictionaryUITests;
+			sourceTree = "<group>";
+		};
+		AB43F6C51C22677100440223 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AB43F6C61C22679600440223 /* AppDelegate.h */,
+				AB43F6C71C22679600440223 /* AppDelegate.m */,
+				AB43F6C81C22679600440223 /* BootLogic.h */,
+				AB43F6C91C22679600440223 /* BootLogic.m */,
+				AB43F6CA1C22679600440223 /* ConsoleScreen.h */,
+				AB43F6CB1C22679600440223 /* ConsoleScreen.m */,
+				AB43F6CE1C22679600440223 /* MainScreen.h */,
+				AB43F6CF1C22679600440223 /* MainScreen.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,24 +153,6 @@
 			productName = Dictionary;
 			productReference = AB43F68F1C22673C00440223 /* Dictionary.app */;
 			productType = "com.apple.product-type.application";
-		};
-		AB43F6A71C22673C00440223 /* DictionaryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB43F6BF1C22673C00440223 /* Build configuration list for PBXNativeTarget "DictionaryTests" */;
-			buildPhases = (
-				AB43F6A41C22673C00440223 /* Sources */,
-				AB43F6A51C22673C00440223 /* Frameworks */,
-				AB43F6A61C22673C00440223 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB43F6AA1C22673C00440223 /* PBXTargetDependency */,
-			);
-			name = DictionaryTests;
-			productName = DictionaryTests;
-			productReference = AB43F6A81C22673C00440223 /* DictionaryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		AB43F6B21C22673C00440223 /* DictionaryUITests */ = {
 			isa = PBXNativeTarget;
@@ -208,10 +184,6 @@
 					AB43F68E1C22673C00440223 = {
 						CreatedOnToolsVersion = 7.2;
 					};
-					AB43F6A71C22673C00440223 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = AB43F68E1C22673C00440223;
-					};
 					AB43F6B21C22673C00440223 = {
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = AB43F68E1C22673C00440223;
@@ -232,7 +204,6 @@
 			projectRoot = "";
 			targets = (
 				AB43F68E1C22673C00440223 /* Dictionary */,
-				AB43F6A71C22673C00440223 /* DictionaryTests */,
 				AB43F6B21C22673C00440223 /* DictionaryUITests */,
 			);
 		};
@@ -244,15 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB43F6A21C22673C00440223 /* LaunchScreen.storyboard in Resources */,
+				AB43F6D61C22679600440223 /* words.plist in Resources */,
 				AB43F69F1C22673C00440223 /* Assets.xcassets in Resources */,
-				AB43F69D1C22673C00440223 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB43F6A61C22673C00440223 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,17 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB43F69A1C22673C00440223 /* ViewController.m in Sources */,
-				AB43F6971C22673C00440223 /* AppDelegate.m in Sources */,
+				AB43F6D21C22679600440223 /* BootLogic.m in Sources */,
+				AB43F6D31C22679600440223 /* ConsoleScreen.m in Sources */,
+				AB43F6D51C22679600440223 /* MainScreen.m in Sources */,
+				AB43F6D11C22679600440223 /* AppDelegate.m in Sources */,
+				AB43F6D41C22679600440223 /* dictionaryHW.m in Sources */,
 				AB43F6941C22673C00440223 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB43F6A41C22673C00440223 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB43F6AD1C22673C00440223 /* DictionaryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +254,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AB43F6AA1C22673C00440223 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB43F68E1C22673C00440223 /* Dictionary */;
-			targetProxy = AB43F6A91C22673C00440223 /* PBXContainerItemProxy */;
-		};
 		AB43F6B51C22673C00440223 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AB43F68E1C22673C00440223 /* Dictionary */;
@@ -308,14 +262,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AB43F69B1C22673C00440223 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB43F69C1C22673C00440223 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB43F6A01C22673C00440223 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -429,30 +375,6 @@
 			};
 			name = Release;
 		};
-		AB43F6C01C22673C00440223 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DictionaryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = HOANGTHAI.DictionaryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dictionary.app/Dictionary";
-			};
-			name = Debug;
-		};
-		AB43F6C11C22673C00440223 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DictionaryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = HOANGTHAI.DictionaryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dictionary.app/Dictionary";
-			};
-			name = Release;
-		};
 		AB43F6C31C22673C00440223 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -494,14 +416,6 @@
 			buildConfigurations = (
 				AB43F6BD1C22673C00440223 /* Debug */,
 				AB43F6BE1C22673C00440223 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		AB43F6BF1C22673C00440223 /* Build configuration list for PBXNativeTarget "DictionaryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB43F6C01C22673C00440223 /* Debug */,
-				AB43F6C11C22673C00440223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
